@@ -6,6 +6,9 @@ if placeId == 74866348003583 then
 elseif placeId == 127214133760034 then
     -- Steal a Stickman
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Kyereal/Scripts/refs/heads/main/Steal%20a%20Stickman"))()
+elseif placeId == 101608112697310 then
+    -- Steal a Worker
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Kyereal/Scripts/refs/heads/main/Steal%20a%20Worker"))()
 else
     print("Unsupported PlaceId:", placeId)
 end
